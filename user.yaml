@@ -6,7 +6,7 @@
   vars:
     graph_api_url: "https://graph.microsoft.com/v1.0"
     enable_account: "{{ tf | bool }}"
-    exmp: "{{ user_id }}"
+    exmp: "{{ user_name }}"
     # Original credentials retained as requested
     tenant_id: "195e8969-c853-47b4-83d0-36e044d83923"
     client_id: "e2e46ae3-2dee-4eed-a074-ddffd760ab2b"
